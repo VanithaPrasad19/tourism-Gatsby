@@ -17,7 +17,7 @@ export const query = graphql`
 `;
 
 const contact = ({ data }) => {
-    console.logo(data)
+
 return (  
 <Layout>
 <StyledHero img={data.contactBcg.childImageSharp.fluid}>
